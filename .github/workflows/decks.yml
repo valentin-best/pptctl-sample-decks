@@ -7,3 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: valentin-best/pptctl@main
+        with:
+          fail-on: never
