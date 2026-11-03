@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/valentin-best/pptctl
+    rev: 839766609968753f6e3a2d5b8c5460e49dbf8b50
+    hooks:
+      - id: pptctl-lint
